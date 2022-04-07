@@ -52,8 +52,6 @@ public class Main {
                     System.out.println("Saindo...");
                 break;
             }
-            
-            List<String> operation = calc.getLastOperations();
     
             Scanner aux = new Scanner(System.in);
         
@@ -70,9 +68,7 @@ public class Main {
         }while(op != 0);
         
         List<String> operation = calc.getLastOperations();
-        System.out.println("Operações realizadas");
-            for (String oper : operation) {
-		System.out.println(operation);
-            }
-    }
+	System.out.println("Operações realizadas");
+	System.out.println(operation);
+    }	
 }
